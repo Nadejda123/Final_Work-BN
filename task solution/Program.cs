@@ -11,10 +11,9 @@
 			
 string[] Filling_2nd_array(string[] array,int words_length)
 {
-    int length = array.Length;
-    string[] arr2 = new string[length];
+    string[] arr2 = new string[array.Length];
     int count = 0;
-    for (int i = 0; i < length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         if(array[i].Length <= words_length)
         {
